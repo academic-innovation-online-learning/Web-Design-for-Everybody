@@ -1,0 +1,36 @@
+/* Do these need to be reordered? */
+p{
+  display:none;
+  border: 5px solid;
+}
+
+@media only screen and (min-width: 1024px) {
+		body{ 
+      background: #0000FF;
+      width:25%;
+    }
+  .large{
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 780px) {
+		body{ 
+      background: #FFFF00; 
+      width:50%;
+  }
+  .mid{
+    display: block;
+  }
+}
+
+body{ 
+  width:100%;
+  background: #008800; 
+  font-size:150%;
+}
+
+.mobile{
+    display: block
+ }
+

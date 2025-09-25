@@ -1,0 +1,72 @@
+body {
+  background-color: floralwhite;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body > a{
+  position: absolute;
+  left: -500px
+}
+
+body > a:hover{
+  left:0
+}
+
+header {
+  background-color: lightgray;
+}
+
+nav{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main{
+  background-color: yellow;
+  font-size: 20px;
+}
+footer {
+  background-color: lightgray;
+}
+
+h1 {
+  text-align: center;
+  font-family: Cursive;
+  color: darkblue;
+}
+
+
+nav ul li{
+  margin:15px 15px 15px -25px;
+  padding: 15px;
+  background-color: antiquewhite;
+
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 95%;
+  justify-content: space-evenly;
+  row-gap: 10px;
+}
+
+.grid img {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  font-size: 150%;
+  border:2px solid black;
+}
+
+@media screen and (min-width: 800px) {
+  nav ul{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+
+
