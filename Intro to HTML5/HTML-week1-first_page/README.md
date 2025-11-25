@@ -3,10 +3,10 @@ This is the starter code for your First Page!
 
 To get started, follow these steps:
 
-For Gtihub Codespace users - 
+For Github Codespace users - 
 1. Visit https://github.com/codespaces
 2. Click on "New codespace"
-3. Once you see the page https://github.com/codespaces/new, selecte this repository name "wd4e/week1-html-first-page"
+3. Once you see the page https://github.com/codespaces/new, select this repository name "wd4e/week1-html-first-page"
 4. Select "Create codespace" and you should be all set!
 
 For additional help on setting up Github or codespace in general, revisit the resources provided within the Getting Started module.
